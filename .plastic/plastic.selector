@@ -1,0 +1,4 @@
+repository "2Dlittlegame@wechat_os_qy09ja2pudjg7rpgsu-lrv-n0@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
