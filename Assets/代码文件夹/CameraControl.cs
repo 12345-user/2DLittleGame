@@ -9,6 +9,9 @@ public class CameraControl : MonoBehaviour
     public int CameraMoveDistanceLimit;
     public GameObject[] UIList;
     public float[] UI_x;
+
+    public int ButtonDirection;
+
     // Update is called once per frame
     void Awake()
     {
@@ -21,6 +24,7 @@ public class CameraControl : MonoBehaviour
     void Update()
     {
         MoveUI_x();
+        MoveUI_x_continuous(ButtonDirection);
     }
     public void MoveUI_x()
     {
@@ -49,33 +53,36 @@ public class CameraControl : MonoBehaviour
             }
         }
     }
-    public void MoveUI_x(bool direction)
+    public void MoveUI_x_continuous(int direction)
     {
-        if (direction && CameraTransform.position.x < CameraMoveDistanceLimit)
+        if (direction >0 && CameraTransform.position.x < CameraMoveDistanceLimit)
         {
             {
                 // Move the camera along the x-axis
-                CameraTransform.position += new Vector3(CameraMoveSpeed * Time.deltaTime, 0, 0);
+                CameraTransform.position += new Vector3(direction * CameraMoveSpeed * Time.deltaTime, 0, 0);
                 for (int i = 0; i < UIList.Length; i++)
                 {
-                    UIList[i].transform.position += new Vector3(CameraMoveSpeed * Time.deltaTime, 0, 0);
+                    UIList[i].transform.position += new Vector3(direction * CameraMoveSpeed * Time.deltaTime, 0, 0);
                 }
 
             }
         }
-        if (!direction && CameraTransform.position.x > (-1 * CameraMoveDistanceLimit))
+        if (direction <0  && CameraTransform.position.x > (-1 * CameraMoveDistanceLimit))
         {
+            // Move the camera along the x-axis
+            CameraTransform.position += new Vector3(direction * CameraMoveSpeed * Time.deltaTime, 0, 0);
+            for (int i = 0; i < UIList.Length; i++)
             {
-                // Move the camera along the x-axis
-                CameraTransform.position += new Vector3(-CameraMoveSpeed * Time.deltaTime, 0, 0);
-                for (int i = 0; i < UIList.Length; i++)
-                {
-                    UIList[i].transform.position += new Vector3(-CameraMoveSpeed * Time.deltaTime, 0, 0);
-                }
-
+                UIList[i].transform.position += new Vector3(direction * CameraMoveSpeed * Time.deltaTime, 0, 0);
             }
+
         }
     }
+    public void SetDirection(int direction)
+    {
+        ButtonDirection = direction;
+    }
+
     public void RestoreUI_x()
     {
         CameraTransform.position = new Vector3(0, 0, CameraTransform.position.z);
