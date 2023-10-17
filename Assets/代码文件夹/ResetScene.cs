@@ -53,4 +53,19 @@ public class ResetScene : MonoBehaviour
         }
 
     }
+
+    public void StopOtherAudio(int Keep)
+    {
+        for (int i = 0; i < allAudioSource.Length; i++)
+        {
+            if (i != Keep)
+            {
+                allAudioSource[i].Stop();
+            }
+            else
+            {
+                allAudioSource[i].Play();
+            }
+        }
+    }
 }
