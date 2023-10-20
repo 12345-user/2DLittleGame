@@ -15,7 +15,7 @@ D:/work/ai/2DlittleGame/2DLittleGame-master
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63542
+59436
 Successfully changed project path to: D:/work/ai/2DlittleGame/2DLittleGame-master
 D:/work/ai/2DlittleGame/2DLittleGame-master
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/work/ai/2DlittleGame/2DLittleGame-master
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33440] Host "[IP] 192.168.152.223 [Port] 0 [Flags] 2 [Guid] 398210218 [EditorId] 398210218 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16180] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3503468251 [EditorId] 3503468251 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [33440] Host "[IP] 192.168.152.223 [Port] 0 [Flags] 2 [Guid] 398210218 [EditorId] 398210218 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16180] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3503468251 [EditorId] 3503468251 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 76.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
 [Subsystems] Discovering subsystems at path D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
@@ -68,147 +68,89 @@ Initialize mono
 Mono path[0] = 'D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003138 seconds.
+Registered in 0.001583 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
+- Completed reload, in  0.453 seconds
 Domain Reload Profiling:
-	ReloadAssembly (728ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (453ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (513ms)
-			LoadAssemblies (92ms)
+		EndReloadAssembly (324ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (79ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (303ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006902 seconds.
+Registered in 0.005240 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.258 seconds
+- Completed reload, in  0.815 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1259ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1026ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (538ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (427ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (46.4 KB). Loaded Objects now: 3531.
-Memory consumption went from 114.2 MB to 114.1 MB.
-Total: 3.405600 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.081300 ms MarkObjects: 3.016700 ms  DeleteObjects: 0.110200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005671 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Domain Reload Profiling:
-	ReloadAssembly (966ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (745ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (371ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3534.
-Memory consumption went from 112.5 MB to 112.5 MB.
-Total: 3.261300 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.091700 ms MarkObjects: 2.897300 ms  DeleteObjects: 0.035400 ms)
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.4 KB). Loaded Objects now: 3531.
+Memory consumption went from 114.2 MB to 114.1 MB.
+Total: 3.200900 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.094400 ms MarkObjects: 2.816800 ms  DeleteObjects: 0.071300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -222,3 +164,971 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227995.601972 seconds.
+  path: Assets/贴图/西仓主界面贴图/人物
+  artifactKey: Guid(aacead4715c021f44956b522dbae34b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人物 using Guid(aacead4715c021f44956b522dbae34b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd2f773fbc71371b254d3251623a93f') in 0.016766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135866 seconds.
+  path: Assets/贴图/西仓主界面贴图/人物/人1本地.png
+  artifactKey: Guid(e6a7b1a8272ca7549b08a42fcde4ec4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人物/人1本地.png using Guid(e6a7b1a8272ca7549b08a42fcde4ec4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaf091928d3dcb6f36594a52d771aec') in 0.089419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011397 seconds.
+  path: Assets/贴图/西仓主界面贴图/人物/人5，外地caijian.png
+  artifactKey: Guid(8028eeb64562b1b4db6e949724cf6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人物/人5，外地caijian.png using Guid(8028eeb64562b1b4db6e949724cf6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278eeea8fb35cb469ac79e3a0b7ed7d3') in 0.038697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/贴图/西仓主界面贴图/人物/人14和15，外地caijian.png
+  artifactKey: Guid(dce65da5884452948bfe0db20b7b1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人物/人14和15，外地caijian.png using Guid(dce65da5884452948bfe0db20b7b1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e8d39427232485609d8f0177f87e16') in 0.039577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/贴图/西仓主界面贴图/人物/人11，小贩caijian.png
+  artifactKey: Guid(b67f7a186c2be734da434b328974eeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人物/人11，小贩caijian.png using Guid(b67f7a186c2be734da434b328974eeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1d0128556e7d3694a7a94b37f6300e') in 0.040222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/贴图/西仓主界面贴图/人物/人7和8，外地caijian.png
+  artifactKey: Guid(af3fd86e022a1a24db710843d9852511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人物/人7和8，外地caijian.png using Guid(af3fd86e022a1a24db710843d9852511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb8aad2dfc4735fd5d4306dc40ec65e') in 0.050927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652455 seconds.
+  path: Assets/贴图/西仓主界面贴图/人物/Materials
+  artifactKey: Guid(3bd91040c126bc44a8ed23375e3a52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人物/Materials using Guid(3bd91040c126bc44a8ed23375e3a52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aacaf5ee9b7cc13173c1802a5a75a41') in 0.007569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.583636 seconds.
+  path: Assets/贴图
+  artifactKey: Guid(7a6511cbe1cce804d9ed316ab899fbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图 using Guid(7a6511cbe1cce804d9ed316ab899fbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee65f249da1106b090853cb6bed8e56') in 0.013298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.492957 seconds.
+  path: Assets/贴图/麻家十字主界面贴图
+  artifactKey: Guid(79972caa95f26ab4781c1f444cbe9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图 using Guid(79972caa95f26ab4781c1f444cbe9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e9ba222fca6d2881b94f9dfdd691bc') in 0.007651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.410522 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/背景
+  artifactKey: Guid(737102c29bb075c4e89718dd18257ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/背景 using Guid(737102c29bb075c4e89718dd18257ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7bf42bf96ef914fcebbb157efc3060') in 0.001684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.370161 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物
+  artifactKey: Guid(e74ddebc0869a664bbe99ec8d17b8bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物 using Guid(e74ddebc0869a664bbe99ec8d17b8bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b92ece59e429e273887377fc80b86e3') in 0.001636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.346564 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/1.png
+  artifactKey: Guid(03b0e3139f6577945a4752369489138f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/1.png using Guid(03b0e3139f6577945a4752369489138f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75b510159c01f3cff786648e021bcf7') in 0.016782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.424648 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/2.png
+  artifactKey: Guid(afd849163d6b1784fbe73ed6823ae985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/2.png using Guid(afd849163d6b1784fbe73ed6823ae985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84480c6aada048055305b28ca718db6a') in 0.014066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.215987 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/3.png
+  artifactKey: Guid(62714bac7f93be64bb0e21205fad475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/3.png using Guid(62714bac7f93be64bb0e21205fad475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3a3a75b2296c1fb71fe869e16ea3df') in 0.016224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.469103 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/4.png
+  artifactKey: Guid(52e9bb0a94dccac4d9426e8f127fedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/4.png using Guid(52e9bb0a94dccac4d9426e8f127fedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c46189a6d6dfd711e520a2ac3bbef73') in 0.013581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.563706 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/5.png
+  artifactKey: Guid(222e1dee0225d0e47a8790b9ea66511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/5.png using Guid(222e1dee0225d0e47a8790b9ea66511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f0b087e8ecba071373370004c4f072') in 0.018360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.609949 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/6.png
+  artifactKey: Guid(b6e700347fefea9478368ae67cef6ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/6.png using Guid(b6e700347fefea9478368ae67cef6ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b718f64f1554d80f8cd79f800bd6d56') in 0.019205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.254307 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/7.png
+  artifactKey: Guid(eb7bad7421cb6ff48a0eb502a5171e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/7.png using Guid(eb7bad7421cb6ff48a0eb502a5171e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699314ec002d9a56a60b6f97196f1e9f') in 0.013165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.660317 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/8.png
+  artifactKey: Guid(be5402bd3fd62db4697b464ded4a381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/8.png using Guid(be5402bd3fd62db4697b464ded4a381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa1b5752acf06bf9a3c178f2ae9fec5') in 0.026275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.616324 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/9.png
+  artifactKey: Guid(0808ced7aa4fea04589d415d0cff8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/9.png using Guid(0808ced7aa4fea04589d415d0cff8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18787ce9b87dbe4b563915108d9c7d40') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.432580 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/10.png
+  artifactKey: Guid(bb0ca6cfd56b35646ac0eaa9d3ca1ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/10.png using Guid(bb0ca6cfd56b35646ac0eaa9d3ca1ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5384d1b11fc1497bda127b8a21c722') in 0.015829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.660505 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/11.png
+  artifactKey: Guid(bae6b1a4707cd09469f5906011ea31b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/11.png using Guid(bae6b1a4707cd09469f5906011ea31b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfeda937cb0df3e15ee4e5acc0cb798') in 0.020535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.423526 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/12.png
+  artifactKey: Guid(8e160cd1adca47e4dbcce66c68ddb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/12.png using Guid(8e160cd1adca47e4dbcce66c68ddb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a42c6a1c499e623ca34c0c61d26f647') in 0.015945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.339508 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/13.png
+  artifactKey: Guid(828cac214cbd65d4ba6f506d8847c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/13.png using Guid(828cac214cbd65d4ba6f506d8847c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ff7122aec5c50ef2ca663bead63c99') in 0.018744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.324665 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/14.png
+  artifactKey: Guid(b6f4a5f56c2609445b4b1fc9e1789d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/14.png using Guid(b6f4a5f56c2609445b4b1fc9e1789d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd39235e0340db67e0a4afc664bf0a5') in 0.013873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.794029 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/15.png
+  artifactKey: Guid(47b5f1c8e5cced244b6823742cb4477a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/15.png using Guid(47b5f1c8e5cced244b6823742cb4477a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf068ccaaf4fdb1662ba49fee1b9265') in 0.014064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.363817 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/16.png
+  artifactKey: Guid(de7ea139160167e42acb617a7b95a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/16.png using Guid(de7ea139160167e42acb617a7b95a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696ac0dcacd6c929c09cb985506e6262') in 0.017699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.266111 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/17.png
+  artifactKey: Guid(173dabd563f233b4b855dac149ed16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/17.png using Guid(173dabd563f233b4b855dac149ed16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa5181b2d12c2b5b6c8f80fdaa3d7c4') in 0.014336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.481005 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/18.png
+  artifactKey: Guid(43d5988a0d392f64cb53f74a04dfc050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/18.png using Guid(43d5988a0d392f64cb53f74a04dfc050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca7554e71329178f95e7b304eae49d8') in 0.021117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.190765 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/19.png
+  artifactKey: Guid(489f4000ff49d3b489e07eb967364146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/19.png using Guid(489f4000ff49d3b489e07eb967364146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf521cd3ca0449ad555e4b9d7c0950f') in 0.018830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.600545 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/20.png
+  artifactKey: Guid(09f3fde808da8014599e1a3b2e89af4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/20.png using Guid(09f3fde808da8014599e1a3b2e89af4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af4cbd3ebf4400fc5722d06099a5bbb') in 0.018144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.338878 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/21.png
+  artifactKey: Guid(dd9e4f5781707a44baa4b2c1caa9377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/21.png using Guid(dd9e4f5781707a44baa4b2c1caa9377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bbed175a130aab7aefef56a6a0c2d9') in 0.018585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.105651 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/22.png
+  artifactKey: Guid(d7c9e7195c2cf574683e8a13d10dcbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/22.png using Guid(d7c9e7195c2cf574683e8a13d10dcbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361076d69640f182c5d08725e2c9b9bc') in 0.015139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.465961 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/23.png
+  artifactKey: Guid(aceb8eb5f7f2f264e98480f8736b6ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/23.png using Guid(aceb8eb5f7f2f264e98480f8736b6ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beb7a72b79c991bec5b17346323096f') in 0.014046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.898379 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/24.png
+  artifactKey: Guid(92cccee4afa25364f9ba8bd50b78f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/24.png using Guid(92cccee4afa25364f9ba8bd50b78f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b589614701c76bc9ff2873278ab07c') in 0.014866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.330556 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/25.png
+  artifactKey: Guid(c7f016661749c5645a0153cf59b34991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/25.png using Guid(c7f016661749c5645a0153cf59b34991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4215ff580ed021eb8bd9d615114f0af') in 0.014787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 752.168563 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/New Material.mat
+  artifactKey: Guid(8cd3a62c3dad8ea4ca9522456b499fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/New Material.mat using Guid(8cd3a62c3dad8ea4ca9522456b499fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843165b95b5d5b86cd46baa7e7208a8b') in 0.074815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.880611 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人1.mat
+  artifactKey: Guid(8cd3a62c3dad8ea4ca9522456b499fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人1.mat using Guid(8cd3a62c3dad8ea4ca9522456b499fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55a1e281e0b87066454873049bf9482') in 0.016956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.853257 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人2.mat
+  artifactKey: Guid(a32f774aa126de94a8c6930d79e9cd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人2.mat using Guid(a32f774aa126de94a8c6930d79e9cd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc5f065db6ca1674ba819df1995a372') in 0.013253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.287645 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人3.mat
+  artifactKey: Guid(49c197b7f3dc3354fa974523c35ea859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人3.mat using Guid(49c197b7f3dc3354fa974523c35ea859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a5f6d7d2035a8a7613ccccad66232f') in 0.015501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.872646 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人4.mat
+  artifactKey: Guid(506a34a5f8b3eeb4c9ea089567897886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人4.mat using Guid(506a34a5f8b3eeb4c9ea089567897886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb4d9a08f1a96fa9bcd0dada3b6e212') in 0.015537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.499735 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人5.mat
+  artifactKey: Guid(3485f25ec01039e43a0573b0d04ec568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人5.mat using Guid(3485f25ec01039e43a0573b0d04ec568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466cb2b01219d2e50810a5efa1048766') in 0.014929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.970360 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人6.mat
+  artifactKey: Guid(986d340efce5187458136b5a02f8d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人6.mat using Guid(986d340efce5187458136b5a02f8d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7fa3c3a923987a9a756929b7ab7cd9') in 0.013882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.699168 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人7.mat
+  artifactKey: Guid(cac13639ebca5db4cab97b61a5a3b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人7.mat using Guid(cac13639ebca5db4cab97b61a5a3b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe84602c44914e321137ae013d52856') in 0.015235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.866795 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人8.mat
+  artifactKey: Guid(88c8e483558f3df4790cd48520a71db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人8.mat using Guid(88c8e483558f3df4790cd48520a71db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d326dc7660e094a45b10fbf0197ee4') in 0.015069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.251717 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人9.mat
+  artifactKey: Guid(4b5c657be3b72f74bbcde03ee364abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人9.mat using Guid(4b5c657be3b72f74bbcde03ee364abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c6d70a07b75ea30487b2b101e6f2a1') in 0.012102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.159140 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人10.mat
+  artifactKey: Guid(32f20606cf5bb3547ba3c924cb8c2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人10.mat using Guid(32f20606cf5bb3547ba3c924cb8c2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5814dea86fec4ec171fe0b64e48fe964') in 0.013279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 810.334131 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人11.mat
+  artifactKey: Guid(1ccb70501e8e5aa40b8be216df049681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人11.mat using Guid(1ccb70501e8e5aa40b8be216df049681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dff179708388663a28577f2ec20af4') in 0.032884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.276987 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人12.mat
+  artifactKey: Guid(edcd2e2c0a48750419e922ba8d49bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人12.mat using Guid(edcd2e2c0a48750419e922ba8d49bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d9ecaf67f9ef3990cf387f4f69448d') in 0.012746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.995918 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人13.mat
+  artifactKey: Guid(9c3f92cd1be25ca45a84fc29f04f13ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人13.mat using Guid(9c3f92cd1be25ca45a84fc29f04f13ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10cee84897f40d19b6d39e1aea20c0f') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 717.953007 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人14.mat
+  artifactKey: Guid(84102024c8296a945b672591ace4a163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人14.mat using Guid(84102024c8296a945b672591ace4a163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed1d450d1ee269984180ee3a82e46c3') in 0.015494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.526201 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人15.mat
+  artifactKey: Guid(1598f3c01680bed4e85961fe0f5c9396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人15.mat using Guid(1598f3c01680bed4e85961fe0f5c9396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21edf446b720dc906fb7719e3639af41') in 0.014246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.980924 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人16.mat
+  artifactKey: Guid(a1c4bb9809cf5f548b94b0b582e8cc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人16.mat using Guid(a1c4bb9809cf5f548b94b0b582e8cc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331a5375d9f7a1652323385c5e9e86c3') in 0.017124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.256150 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人17.mat
+  artifactKey: Guid(79a6aaba7c510f54092fb1a6da6f1a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人17.mat using Guid(79a6aaba7c510f54092fb1a6da6f1a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bbe793fc97cfc32210decc0c6a3933') in 0.014103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.790382 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人18.mat
+  artifactKey: Guid(ccf388d388ec2d74abf5f1462c3dddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人18.mat using Guid(ccf388d388ec2d74abf5f1462c3dddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b4ae2a5b088bbaf48dd6fee74fd041') in 0.017114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.185628 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人19.mat
+  artifactKey: Guid(7a1fa02f1df2edf459eca4b72d583b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人19.mat using Guid(7a1fa02f1df2edf459eca4b72d583b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874e8b1e017ea7e83ab40e0437d872fe') in 0.012898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.668548 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人20.mat
+  artifactKey: Guid(fc57f566077f5854d928ccc32e165041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人20.mat using Guid(fc57f566077f5854d928ccc32e165041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430a8192320a58c99d734577f232145f') in 0.017459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.790060 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人21.mat
+  artifactKey: Guid(414b2f709eb7f754aae411cd3a730f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人21.mat using Guid(414b2f709eb7f754aae411cd3a730f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77c51a5f98d404dcc391fbeb60c5054') in 0.014269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.337494 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人22.mat
+  artifactKey: Guid(471ff6b49878b6c448167c6158872cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人22.mat using Guid(471ff6b49878b6c448167c6158872cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb17749f8cbc355279ab608a8bc268f3') in 0.014924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.322188 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人23.mat
+  artifactKey: Guid(e6f15a503d836c542b2d59903655dac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人23.mat using Guid(e6f15a503d836c542b2d59903655dac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4e8d60b1b40b2eec493293eb4b25bc') in 0.014322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.213938 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人24.mat
+  artifactKey: Guid(8e6e8bed12901bf4b969e34f45f4ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人24.mat using Guid(8e6e8bed12901bf4b969e34f45f4ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2578249284d9522737aa50bbd8197038') in 0.018595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.620133 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人25.mat
+  artifactKey: Guid(db7a572920b52d2469860ea26ed3a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人25.mat using Guid(db7a572920b52d2469860ea26ed3a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dbec140485a4b34731299b7bcdd118') in 0.016777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.280570 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/New Material.mat
+  artifactKey: Guid(3af07cded1aa72d4cbbaebd2607670b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/New Material.mat using Guid(3af07cded1aa72d4cbbaebd2607670b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5b93d7d4e9e5685202fded74679c55') in 0.016120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.514734 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人1.png
+  artifactKey: Guid(03b0e3139f6577945a4752369489138f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人1.png using Guid(03b0e3139f6577945a4752369489138f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e91bda8692a16b74dfe043acccfffd1') in 0.008644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.216519 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人2.png
+  artifactKey: Guid(afd849163d6b1784fbe73ed6823ae985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人2.png using Guid(afd849163d6b1784fbe73ed6823ae985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a782083d4c73eb6e9da92b8304f1c90') in 0.019156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.135838 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人3.png
+  artifactKey: Guid(62714bac7f93be64bb0e21205fad475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人3.png using Guid(62714bac7f93be64bb0e21205fad475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4590aff73786a476bd796fc4871439f') in 0.015989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.287169 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人4.png
+  artifactKey: Guid(52e9bb0a94dccac4d9426e8f127fedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人4.png using Guid(52e9bb0a94dccac4d9426e8f127fedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383ba6ea08192da665d45e908246200d') in 0.011803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.187240 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人19.png
+  artifactKey: Guid(489f4000ff49d3b489e07eb967364146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人19.png using Guid(489f4000ff49d3b489e07eb967364146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b7f630f97de0ecaa831733409dc8f4') in 0.019202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.619440 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人17.png
+  artifactKey: Guid(173dabd563f233b4b855dac149ed16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人17.png using Guid(173dabd563f233b4b855dac149ed16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e43999aa3c9e20726601dd91284438') in 0.022626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.928277 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人18.png
+  artifactKey: Guid(43d5988a0d392f64cb53f74a04dfc050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人18.png using Guid(43d5988a0d392f64cb53f74a04dfc050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987efb2e981422ac8b6aeb3d115b2a11') in 0.015415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.128521 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人20.png
+  artifactKey: Guid(09f3fde808da8014599e1a3b2e89af4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人20.png using Guid(09f3fde808da8014599e1a3b2e89af4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00bc8283fbd79755cbc021b35db1014') in 0.016071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.626816 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人21.png
+  artifactKey: Guid(dd9e4f5781707a44baa4b2c1caa9377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人21.png using Guid(dd9e4f5781707a44baa4b2c1caa9377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d20fbcaab0e9cd8e2ff4884e9fe000') in 0.016153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.553233 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人22.png
+  artifactKey: Guid(d7c9e7195c2cf574683e8a13d10dcbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人22.png using Guid(d7c9e7195c2cf574683e8a13d10dcbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2c5ea56d4b8c394a8a5d9efa02b75a') in 0.018433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.525086 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人23.png
+  artifactKey: Guid(aceb8eb5f7f2f264e98480f8736b6ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人23.png using Guid(aceb8eb5f7f2f264e98480f8736b6ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8737cdddf66b281d46084486b1af955e') in 0.013208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.930288 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人24.png
+  artifactKey: Guid(92cccee4afa25364f9ba8bd50b78f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人24.png using Guid(92cccee4afa25364f9ba8bd50b78f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3becce95ad438ee36a013bf338731126') in 0.014840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.167152 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人25.png
+  artifactKey: Guid(c7f016661749c5645a0153cf59b34991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人25.png using Guid(c7f016661749c5645a0153cf59b34991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821fb39d2c79686418f9d66d0fceb1c4') in 0.015267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.581729 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人5.png
+  artifactKey: Guid(222e1dee0225d0e47a8790b9ea66511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人5.png using Guid(222e1dee0225d0e47a8790b9ea66511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584e914cd79063f0d2252359ab11d7a3') in 0.015514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.255067 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人6.png
+  artifactKey: Guid(b6e700347fefea9478368ae67cef6ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人6.png using Guid(b6e700347fefea9478368ae67cef6ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c290040a7c58891b6402c9fa3944d8de') in 0.014605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.748663 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人7.png
+  artifactKey: Guid(eb7bad7421cb6ff48a0eb502a5171e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人7.png using Guid(eb7bad7421cb6ff48a0eb502a5171e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f7c670e334697683e959891e7d2f43') in 0.014813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.209918 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人8.png
+  artifactKey: Guid(be5402bd3fd62db4697b464ded4a381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人8.png using Guid(be5402bd3fd62db4697b464ded4a381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97832653602242dd2b0fbc48e25ca5ec') in 0.016400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.222030 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人9.png
+  artifactKey: Guid(0808ced7aa4fea04589d415d0cff8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人9.png using Guid(0808ced7aa4fea04589d415d0cff8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f8451f0e941364092ea47776fa33cf') in 0.023592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.499921 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人10.png
+  artifactKey: Guid(bb0ca6cfd56b35646ac0eaa9d3ca1ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人10.png using Guid(bb0ca6cfd56b35646ac0eaa9d3ca1ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707e6f2ce7d3b6696821cd9cf5c8b375') in 0.015974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.236439 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人11.png
+  artifactKey: Guid(bae6b1a4707cd09469f5906011ea31b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人11.png using Guid(bae6b1a4707cd09469f5906011ea31b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc50a8119c25a71d13fb14a981b6ed4b') in 0.022431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.052260 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人12.png
+  artifactKey: Guid(8e160cd1adca47e4dbcce66c68ddb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人12.png using Guid(8e160cd1adca47e4dbcce66c68ddb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c0c9f147eed0a8d6e61c6f7cb3f7cb') in 0.017770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.283705 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人13.png
+  artifactKey: Guid(828cac214cbd65d4ba6f506d8847c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人13.png using Guid(828cac214cbd65d4ba6f506d8847c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173df01ecac0f843e715bb3dbf8f571c') in 0.020204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.814720 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人14.png
+  artifactKey: Guid(b6f4a5f56c2609445b4b1fc9e1789d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人14.png using Guid(b6f4a5f56c2609445b4b1fc9e1789d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba122ad2f92a854977f57df6c2922f89') in 0.014801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.482579 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人15.png
+  artifactKey: Guid(47b5f1c8e5cced244b6823742cb4477a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人15.png using Guid(47b5f1c8e5cced244b6823742cb4477a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a81f7d4c9114cb4ffe8db94a4759346') in 0.014952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.978008 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/人16.png
+  artifactKey: Guid(de7ea139160167e42acb617a7b95a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/人16.png using Guid(de7ea139160167e42acb617a7b95a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ca3360f72ec3277900af4214818738') in 0.013820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.284030 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/Materials
+  artifactKey: Guid(fa9952e9628528941ac91880cdd6c07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/Materials using Guid(fa9952e9628528941ac91880cdd6c07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83eb2d76e277f551639f3019813b25e') in 0.001782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071231 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/人物/Materials/9.mat
+  artifactKey: Guid(2a4a8a50321846042966bb058ed7932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/人物/Materials/9.mat using Guid(2a4a8a50321846042966bb058ed7932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b309a6014dc5b49ce553e561dd043a8') in 0.019600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.860812 seconds.
+  path: Assets/音频/麻家十字声音
+  artifactKey: Guid(4f5f7efd8ff89974487a41641a7dba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音 using Guid(4f5f7efd8ff89974487a41641a7dba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac555a23edab028e0a51e0549733b53') in 0.008217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5311.523765 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/背景/1玫瑰江米糕要几个.mp3
+  artifactKey: Guid(d77c45d095554ab4994c7289d562bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/背景/1玫瑰江米糕要几个.mp3 using Guid(d77c45d095554ab4994c7289d562bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65aa692793fbd40d5da770d92761739') in 0.071781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.834930 seconds.
+  path: Assets/音频/麻家十字声音/1玫瑰江米糕要几个.mp3
+  artifactKey: Guid(312cb8c79eef0984fbf8b80da8f0c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/1玫瑰江米糕要几个.mp3 using Guid(312cb8c79eef0984fbf8b80da8f0c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa430ce386ded0b8ea771a2f812f9ed9') in 0.010243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 549.139487 seconds.
+  path: Assets/音频/麻家十字声音/人1.mp3
+  artifactKey: Guid(312cb8c79eef0984fbf8b80da8f0c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人1.mp3 using Guid(312cb8c79eef0984fbf8b80da8f0c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade7bb6c744bde9689ccd2368006b485') in 0.015970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.833358 seconds.
+  path: Assets/代码文件夹/CameraControl.cs
+  artifactKey: Guid(9a755de6a8bf5764996f0ab11698dead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/代码文件夹/CameraControl.cs using Guid(9a755de6a8bf5764996f0ab11698dead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa896922040470bf45d8a6274780d7c5') in 0.125340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 891.061113 seconds.
+  path: Assets/贴图/标题界面
+  artifactKey: Guid(5b881efb754d94145b3d73c94e90ca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面 using Guid(5b881efb754d94145b3d73c94e90ca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58b436e37324a7ec4110a5122c8b4c7') in 0.008565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.365205 seconds.
+  path: Assets/贴图/标题界面/标题背景图.jpg
+  artifactKey: Guid(6786868b5edcceb4694ffa94ef50b904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/标题背景图.jpg using Guid(6786868b5edcceb4694ffa94ef50b904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b146a557f321a15ddae5e38b803d61') in 0.035868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.699775 seconds.
+  path: Assets/贴图/标题界面/麻家十字按钮.png
+  artifactKey: Guid(3d79736805e9c064fa5b11e8a75d1eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/麻家十字按钮.png using Guid(3d79736805e9c064fa5b11e8a75d1eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecbf8c736f0e4052bf3dfb9b06bff8c') in 0.025828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.778442 seconds.
+  path: Assets/贴图/标题界面/西仓街道按钮1.png
+  artifactKey: Guid(eab38800eb214114e80d732db4b3f637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/西仓街道按钮1.png using Guid(eab38800eb214114e80d732db4b3f637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ae87ced24b9943778fd9b43d78fc50') in 0.014928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.870440 seconds.
+  path: Assets/贴图/标题界面/标题背景.mat
+  artifactKey: Guid(1a09cd3dff2227e42ad2b496d7d165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/标题背景.mat using Guid(1a09cd3dff2227e42ad2b496d7d165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ffeebc42712d19ae2c65a2815f2b52') in 0.039001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.076508 seconds.
+  path: Assets/贴图/标题界面/西仓街道按钮.mat
+  artifactKey: Guid(f016142a2879b654bbc5647500849c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/西仓街道按钮.mat using Guid(f016142a2879b654bbc5647500849c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32204992a4389d5d3e4801aa8c34a31d') in 0.017996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.868620 seconds.
+  path: Assets/贴图/标题界面/麻家十字按钮.mat
+  artifactKey: Guid(bfb7b8a509c7c254fb2854c3c0316367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/麻家十字按钮.mat using Guid(bfb7b8a509c7c254fb2854c3c0316367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04deed4e5204274396dc983465997143') in 0.012962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.091095 seconds.
+  path: Assets/贴图/标题界面/标题完整图.jpg
+  artifactKey: Guid(858769c0c71bd074b823fc6fdb8243bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/标题完整图.jpg using Guid(858769c0c71bd074b823fc6fdb8243bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0785e73bc86e6ca6df3e9130a94686f') in 0.014292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12508.802539 seconds.
+  path: Assets/贴图/标题界面/标题背景材质.mat
+  artifactKey: Guid(1a09cd3dff2227e42ad2b496d7d165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/标题背景材质.mat using Guid(1a09cd3dff2227e42ad2b496d7d165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3942aa7b296f7a733e44355a391633d') in 0.085828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.512695 seconds.
+  path: Assets/贴图/标题界面/西仓街道按钮材质.mat
+  artifactKey: Guid(f016142a2879b654bbc5647500849c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/西仓街道按钮材质.mat using Guid(f016142a2879b654bbc5647500849c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2381ba71cd9438fc804e47aa9ee3c09') in 0.028864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.806678 seconds.
+  path: Assets/贴图/标题界面/麻家十字按钮材质.mat
+  artifactKey: Guid(bfb7b8a509c7c254fb2854c3c0316367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/麻家十字按钮材质.mat using Guid(bfb7b8a509c7c254fb2854c3c0316367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fba0d16593cb2f6911ada9b3e23525') in 0.018017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.391268 seconds.
+  path: Assets/贴图/标题界面/麻家十字按钮.mat
+  artifactKey: Guid(bfb7b8a509c7c254fb2854c3c0316367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/麻家十字按钮.mat using Guid(bfb7b8a509c7c254fb2854c3c0316367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b045a5c21ac5d5091df5aa5f31f57add') in 0.030917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.284252 seconds.
+  path: Assets/贴图/标题界面/西仓街道按钮.mat
+  artifactKey: Guid(f016142a2879b654bbc5647500849c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/西仓街道按钮.mat using Guid(f016142a2879b654bbc5647500849c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c1adde5f95032fb414ac641ce30cd8') in 0.014054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.034198 seconds.
+  path: Assets/贴图/标题界面/标题背景.mat
+  artifactKey: Guid(1a09cd3dff2227e42ad2b496d7d165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/标题背景.mat using Guid(1a09cd3dff2227e42ad2b496d7d165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a246d9710d722710b5d11d64e3c47233') in 0.020878 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005043 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (672ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3582.
+Memory consumption went from 117.3 MB to 117.3 MB.
+Total: 4.520800 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.099800 ms MarkObjects: 4.090300 ms  DeleteObjects: 0.035300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 151.400510 seconds.
+  path: Assets/贴图/西仓介绍界面
+  artifactKey: Guid(a90d7d3f4d6db1d46a5afd27b81210ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓介绍界面 using Guid(a90d7d3f4d6db1d46a5afd27b81210ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bbbdb11f8c6dfb5b874dea48cc8c26') in 0.019488 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3585.
+Memory consumption went from 117.3 MB to 117.3 MB.
+Total: 2.844700 ms (FindLiveObjects: 0.357400 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.363600 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6732.646611 seconds.
+  path: Assets/贴图/西仓主界面贴图/New Material.mat
+  artifactKey: Guid(ae3728ce093c2d042a81d953ae991751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/New Material.mat using Guid(ae3728ce093c2d042a81d953ae991751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19409a632b40e798e7e4e9dd10d431e') in 0.256079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.410166 seconds.
+  path: Assets/贴图/西仓主界面贴图/人1本地caijian.png
+  artifactKey: Guid(da9203ff6c7d03f4f897b28427213773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓主界面贴图/人1本地caijian.png using Guid(da9203ff6c7d03f4f897b28427213773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f13a13ef927df341fb7c6365d2698d') in 0.088821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1116.272063 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/背景/背景图.jpg
+  artifactKey: Guid(c218fa2ee5b782447904b231233d7a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/背景/背景图.jpg using Guid(c218fa2ee5b782447904b231233d7a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f67556f7ff16d066e40b7833a956cdf') in 0.021186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.032313 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/背景/New Material.mat
+  artifactKey: Guid(1bd96ea51364d544a8b43c571242c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/背景/New Material.mat using Guid(1bd96ea51364d544a8b43c571242c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e62e1c14904695c756d65bf739c113f') in 0.018607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.204563 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/背景/背景.mat
+  artifactKey: Guid(1bd96ea51364d544a8b43c571242c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/背景/背景.mat using Guid(1bd96ea51364d544a8b43c571242c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d9a463ed70b5d9ea4db3bd384209fa') in 0.033382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.580324 seconds.
+  path: Assets/贴图/麻家十字主界面贴图/背景/完整图.jpg
+  artifactKey: Guid(e7bb89b4d75dcc745b391bb44881e41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/麻家十字主界面贴图/背景/完整图.jpg using Guid(e7bb89b4d75dcc745b391bb44881e41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a8590d0b633ebca227fa67d0cd3b6b') in 0.020390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4279.556235 seconds.
+  path: Assets/贴图/西仓介绍界面/西仓介绍背景图.jpg
+  artifactKey: Guid(63535b71f6a546c44be167654b272e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓介绍界面/西仓介绍背景图.jpg using Guid(63535b71f6a546c44be167654b272e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0276fd4c2709354689066624e6eabee7') in 0.041601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.973516 seconds.
+  path: Assets/贴图/西仓介绍界面/介绍界面完整图.jpg
+  artifactKey: Guid(37786cf7038657e42b07adddafb7eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓介绍界面/介绍界面完整图.jpg using Guid(37786cf7038657e42b07adddafb7eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7842efb2e3e0560ca59c60ca97fa9c7f') in 0.016040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.804649 seconds.
+  path: Assets/贴图/西仓介绍界面/背景.mat
+  artifactKey: Guid(18f2683906ecbdc4d8467126072d3157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓介绍界面/背景.mat using Guid(18f2683906ecbdc4d8467126072d3157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8690b8ee627c830c0b922993b4d282') in 0.053715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.193724 seconds.
+  path: Assets/贴图/西仓介绍界面/进入的按钮.png
+  artifactKey: Guid(d8ccffacae4a92c4d91f19e6d91c9e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓介绍界面/进入的按钮.png using Guid(d8ccffacae4a92c4d91f19e6d91c9e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2990d8465a21b55f92f30fd1118014cf') in 0.017302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.712336 seconds.
+  path: Assets/贴图/西仓介绍界面/按钮.mat
+  artifactKey: Guid(802cddd3ad0777849ab28f096a31b983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/西仓介绍界面/按钮.mat using Guid(802cddd3ad0777849ab28f096a31b983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caaa949bb36d391c7e444fdf71ac434') in 0.017323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.524816 seconds.
+  path: Assets/贴图/两个街道的主界面
+  artifactKey: Guid(9219c06a77c74e04fb1b0eba04697669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面 using Guid(9219c06a77c74e04fb1b0eba04697669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244b521a91f320cd5958194c185e72d2') in 0.007742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.421296 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui
+  artifactKey: Guid(b369c068c9a62984fb4295cdfe959f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui using Guid(b369c068c9a62984fb4295cdfe959f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c971b134f09b3e3d5cc2acb274d60a') in 0.012243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.597009 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右
+  artifactKey: Guid(97f6360523bc72942a3f06f2ad7bf391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右 using Guid(97f6360523bc72942a3f06f2ad7bf391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846d295048dc5df2d282546285b1708e') in 0.008025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.232105 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左
+  artifactKey: Guid(e7c86d4aa7435a24a8a36eff01aab772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左 using Guid(e7c86d4aa7435a24a8a36eff01aab772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0b2b6601b669334a31cc7738cee4d1') in 0.009432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.131438 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右
+  artifactKey: Guid(781c2ed500d7cb947856ea165d32ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右 using Guid(781c2ed500d7cb947856ea165d32ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617b6a41c34abce0bc6634a96fbe453f') in 0.007754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.362259 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/向左.png
+  artifactKey: Guid(cd77b578ca1c0334284dd37cd9605063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/向左.png using Guid(cd77b578ca1c0334284dd37cd9605063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf75887e7fe4b66d02b3f8f81ec10135') in 0.017032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.429964 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/点击向左.png
+  artifactKey: Guid(18cb922973e499342bc48af02d6e6e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/点击向左.png using Guid(18cb922973e499342bc48af02d6e6e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e430af59a547aced759c7f0ad8dd4628') in 0.013884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.680667 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/悬停向左.png
+  artifactKey: Guid(1bb4777610b130a4988df986c8b38bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/悬停向左.png using Guid(1bb4777610b130a4988df986c8b38bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7c78c585f8a98a530fca08d4f26c14') in 0.015160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.152009 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/点击向左的时候.png
+  artifactKey: Guid(18cb922973e499342bc48af02d6e6e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/点击向左的时候.png using Guid(18cb922973e499342bc48af02d6e6e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9221d1c10dc0eaff3980f7a05c6cd77') in 0.014785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.644189 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/向左.mat
+  artifactKey: Guid(8be39cd9afd6ffb47a91ebde8cb7ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/向左.mat using Guid(8be39cd9afd6ffb47a91ebde8cb7ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41722edba483a11cf75cfd970f594741') in 0.015908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.480692 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/悬停向左.mat
+  artifactKey: Guid(287308a87a522a34d83fd64423d207da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/悬停向左.mat using Guid(287308a87a522a34d83fd64423d207da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2a7a9e169f116d46d43f44fccf5be7') in 0.051206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.031288 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/点击向左.mat
+  artifactKey: Guid(680982ab18e0bd642bc42cb06079d947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向左/点击向左.mat using Guid(680982ab18e0bd642bc42cb06079d947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491790f5705aa1d4f40f6af950b03b13') in 0.014770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.864066 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/点击向右.png
+  artifactKey: Guid(8aa6c03ff11be9d49b7c4e009a425b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/点击向右.png using Guid(8aa6c03ff11be9d49b7c4e009a425b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678bfd91795eb3e39a1981ad156d8a15') in 0.016406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.541292 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/向右.png
+  artifactKey: Guid(825840f299bbb0040aad1a06052268da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/向右.png using Guid(825840f299bbb0040aad1a06052268da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d6587626d64f27008428593983038') in 0.014165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.864212 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/悬停向右.png
+  artifactKey: Guid(c5ddeb762abcfcd449f9a7f9e5ecb6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/悬停向右.png using Guid(c5ddeb762abcfcd449f9a7f9e5ecb6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97367b874df983b6804a2b846f22c7f') in 0.018201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.156490 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/向右.mat
+  artifactKey: Guid(a58150bc9e0c08e47b753e738691c2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/向右.mat using Guid(a58150bc9e0c08e47b753e738691c2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39408361e85f714ad67164cb79721951') in 0.012979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.835514 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/悬停向右.mat
+  artifactKey: Guid(e407039b89f92d043a0c6c03dab25e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/悬停向右.mat using Guid(e407039b89f92d043a0c6c03dab25e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e16054d807beb2931e282bb650b0c12') in 0.016298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.552794 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/点击向右.mat
+  artifactKey: Guid(b4c5fbee08c3bca4b943a79b6c3ad010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/向左向右/向右/点击向右.mat using Guid(b4c5fbee08c3bca4b943a79b6c3ad010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21243d40fc06b2b3a30f80e5b06130bc') in 0.016012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.038285 seconds.
+  path: Assets/贴图/标题界面/New Folder
+  artifactKey: Guid(c28faa7d4ad617a4cbd2e1b176c614d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/New Folder using Guid(c28faa7d4ad617a4cbd2e1b176c614d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c667266eba2e5fff3991781b1e10c9e3') in 0.010944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.046610 seconds.
+  path: Assets/贴图/两个介绍界面
+  artifactKey: Guid(f6aaba47a5d159d4db5ecd8e4dd1004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个介绍界面 using Guid(f6aaba47a5d159d4db5ecd8e4dd1004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf403f6b9ed067422e0b0e4e1abe78') in 0.008372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.212610 seconds.
+  path: Assets/贴图/两个介绍界面/麻家十字介绍界面
+  artifactKey: Guid(2112764d2be5285428ba3fe917983023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个介绍界面/麻家十字介绍界面 using Guid(2112764d2be5285428ba3fe917983023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c894b70f6f3a52081db787ed76e823') in 0.009154 seconds 
