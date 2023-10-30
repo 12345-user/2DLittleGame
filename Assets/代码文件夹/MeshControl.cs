@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +11,7 @@ public class MeshControl : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        meshRender = this.GetComponent<MeshRenderer>();  //°Ñ¸ÃÎïÌåµÄ×é¼þ¸³Öµµ½ÉùÃ÷µÄ±äÁ¿ÖÐ
+        meshRender = this.GetComponent<MeshRenderer>();  //ï¿½Ñ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½
     }
 
     public void ChangeToFini()

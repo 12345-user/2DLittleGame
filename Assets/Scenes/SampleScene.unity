@@ -21414,7 +21414,7 @@ GameObject:
   - component: {fileID: 1448886391}
   - component: {fileID: 1448886390}
   m_Layer: 5
-  m_Name: "\u5173\u95ED\u6309\u94AE (1)"
+  m_Name: "\u91CD\u7F6E"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30886,7 +30886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2055140206
 Transform:
   m_ObjectHideFlags: 0

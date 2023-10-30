@@ -1,14 +1,14 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ugui : MonoBehaviour
 {
     /// <summary>
-    /// ÍË³öÓÎÏ·
+    /// ï¿½Ë³ï¿½ï¿½ï¿½Ï·
     /// </summary>
     public void Close()
     {
-        Application.Quit();//ÍË³öÓ¦ÓÃ
+        Application.Quit();//ï¿½Ë³ï¿½Ó¦ï¿½ï¿½
     }
 }
