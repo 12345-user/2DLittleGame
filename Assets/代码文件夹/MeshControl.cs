@@ -8,18 +8,14 @@ public class MeshControl : MonoBehaviour
     public Material Init_mesh;
     public Material Fini_mesh;
 
-    // Update is called once per frame
-    void Start()
-    {
-        meshRender = this.GetComponent<MeshRenderer>();  //�Ѹ�����������ֵ�������ı�����
-    }
-
     public void ChangeToFini()
     {
+        meshRender = this.GetComponent<MeshRenderer>(); 
         meshRender.material = Fini_mesh;
     }
     public void ChangeToInit()
     {
+        meshRender = this.GetComponent<MeshRenderer>();
         meshRender.material = Init_mesh;
     }
 
