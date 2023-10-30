@@ -15,7 +15,7 @@ D:/work/ai/2DlittleGame/2DLittleGame-master
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59436
+64438
 Successfully changed project path to: D:/work/ai/2DlittleGame/2DLittleGame-master
 D:/work/ai/2DlittleGame/2DLittleGame-master
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/work/ai/2DlittleGame/2DLittleGame-master
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8132] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2203279269 [EditorId] 2203279269 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17108] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1882078287 [EditorId] 1882078287 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8132] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2203279269 [EditorId] 2203279269 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17108] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1882078287 [EditorId] 1882078287 [Version] 1048832 [Id] WindowsEditor(7,zhouwh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 55.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
 [Subsystems] Discovering subsystems at path D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
@@ -68,89 +68,89 @@ Initialize mono
 Mono path[0] = 'D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/work/Unity Hub/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001648 seconds.
+Registered in 0.002361 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.475 seconds
+- Completed reload, in  0.721 seconds
 Domain Reload Profiling:
-	ReloadAssembly (475ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (346ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005287 seconds.
+Registered in 0.006308 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\work\ai\2DlittleGame\2DLittleGame-master\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
+- Completed reload, in  1.274 seconds
 Domain Reload Profiling:
-	ReloadAssembly (850ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (676ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (1093ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (362ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (461ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 22 unused Assets / (46.4 KB). Loaded Objects now: 3531.
 Memory consumption went from 114.2 MB to 114.1 MB.
-Total: 2.635800 ms (FindLiveObjects: 0.225500 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.269200 ms  DeleteObjects: 0.061400 ms)
+Total: 4.501600 ms (FindLiveObjects: 0.308400 ms CreateObjectMapping: 0.280600 ms MarkObjects: 3.793100 ms  DeleteObjects: 0.117900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,35 +166,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 227990.775973 seconds.
-  path: Assets/贴图/西仓主界面贴图/背景/西仓背景图左裁切.jpg
-  artifactKey: Guid(49632a4d04701094aba91f8134dcd570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/贴图/西仓主界面贴图/背景/西仓背景图左裁切.jpg using Guid(49632a4d04701094aba91f8134dcd570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce835656be456f10a3c4aa3bf77891ac') in 0.070869 seconds 
+  Time since last request: 38892.202067 seconds.
+  path: Assets/贴图/两个介绍界面/西仓介绍界面/背景.mat
+  artifactKey: Guid(18f2683906ecbdc4d8467126072d3157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个介绍界面/西仓介绍界面/背景.mat using Guid(18f2683906ecbdc4d8467126072d3157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa51c908b2b456b2117c71493e482300') in 0.128248 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.912359 seconds.
-  path: Assets/贴图/西仓主界面贴图/人物/人3外地caijian.png
-  artifactKey: Guid(86005fe23cd3abb4086621e3a1cdc38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/贴图/西仓主界面贴图/人物/人3外地caijian.png using Guid(86005fe23cd3abb4086621e3a1cdc38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccd0310bd397f3591ad074948afc405') in 0.048037 seconds 
+  Time since last request: 1059.235654 seconds.
+  path: Assets/音频/麻家十字声音/人3.mp3
+  artifactKey: Guid(515e954b69f87ba49a6bd3f31919556e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人3.mp3 using Guid(515e954b69f87ba49a6bd3f31919556e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93131eb3e512f408f32f858181d4d01d') in 0.037752 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.047484 seconds.
-  path: Assets/贴图/西仓主界面贴图/人物/人4，小贩caijian.png
-  artifactKey: Guid(8432dfd6cb02f494a9ce1b1b51f2195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/贴图/西仓主界面贴图/人物/人4，小贩caijian.png using Guid(8432dfd6cb02f494a9ce1b1b51f2195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69ecf2083391aafef6847040aaf1036') in 0.035595 seconds 
+  Time since last request: 0.057220 seconds.
+  path: Assets/音频/麻家十字声音/人6.mp3
+  artifactKey: Guid(9c140013d6a3784418af086f7ce3c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人6.mp3 using Guid(9c140013d6a3784418af086f7ce3c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca30723a09c0dbdf02b7b5b278b82496') in 0.013288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/音频/麻家十字声音/人8.mp3
+  artifactKey: Guid(d251e2f816bda3b43b5e7fcf0619ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人8.mp3 using Guid(d251e2f816bda3b43b5e7fcf0619ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acc1bc6f45a527a4b2b418b0cb8f378') in 0.015949 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/贴图/西仓主界面贴图/人物/人10，本地caijian.png
-  artifactKey: Guid(63337be475a2101498b406e7e2becb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/贴图/西仓主界面贴图/人物/人10，本地caijian.png using Guid(63337be475a2101498b406e7e2becb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30428d373ad6e5824d1933feb63739d') in 0.034321 seconds 
+  path: Assets/音频/麻家十字声音/人11.mp3
+  artifactKey: Guid(23c123229780a6a45a7777deb3cc2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人11.mp3 using Guid(23c123229780a6a45a7777deb3cc2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1cb2c77b2aa02b34285303f4125a79') in 0.016227 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/贴图/西仓主界面贴图/人物/人13，小贩caijian.png
-  artifactKey: Guid(0283e9ee34e8ab04fb93e0d20acac915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/贴图/西仓主界面贴图/人物/人13，小贩caijian.png using Guid(0283e9ee34e8ab04fb93e0d20acac915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0717046cd4dd7dc2f59334dec43196fd') in 0.052821 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000020 seconds.
+  path: Assets/音频/麻家十字声音/人13.mp3
+  artifactKey: Guid(b46de79981d9f9e4090899cb2b0e0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人13.mp3 using Guid(b46de79981d9f9e4090899cb2b0e0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfda5214eb3d3339273071e5f9882037') in 0.015111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116641 seconds.
+  path: Assets/音频/麻家十字声音/人17.mp3
+  artifactKey: Guid(ef63caee8a12fef4aab7b14f2cede2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人17.mp3 using Guid(ef63caee8a12fef4aab7b14f2cede2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c8e269ea3d9ee7fea142e4a1da5e83') in 0.017404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/音频/麻家十字声音/人23.mp3
+  artifactKey: Guid(d391d2e6d1f5bd24185682a5ece27d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人23.mp3 using Guid(d391d2e6d1f5bd24185682a5ece27d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aeb200c8e4e9e98df5d6eec1cd26872') in 0.017420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/音频/麻家十字声音/人16.mp3
+  artifactKey: Guid(60b8fc7402c52a040a58d66064678073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人16.mp3 using Guid(60b8fc7402c52a040a58d66064678073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440665e4cb22493db2933d4759c2a5a6') in 0.026700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/音频/麻家十字声音/人26.mp3
+  artifactKey: Guid(00d0052bded6e504292d8921b617b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/人26.mp3 using Guid(00d0052bded6e504292d8921b617b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68acbf6d638f48861e916c600e5fb82') in 0.017153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.376511 seconds.
+  path: Assets/音频/西仓街道声音/人3.mp3
+  artifactKey: Guid(57b98c8a79c15b841a41388a8277e4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/西仓街道声音/人3.mp3 using Guid(57b98c8a79c15b841a41388a8277e4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ebe58c82e1a2c64bd00ad21a6b893f') in 0.013200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.774772 seconds.
+  path: Assets/音频/西仓街道声音/人7.mp3
+  artifactKey: Guid(3ac8a03150e49084484fc252679740ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/西仓街道声音/人7.mp3 using Guid(3ac8a03150e49084484fc252679740ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd576e487bbb960cd4371d88a0df10d2c') in 0.013504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.942848 seconds.
+  path: Assets/音频/西仓街道声音/人16.mp3
+  artifactKey: Guid(9b0c705e1a3b2f140a315511c575d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/西仓街道声音/人16.mp3 using Guid(9b0c705e1a3b2f140a315511c575d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e1d711d53554bf918eee47cceb5d4c') in 0.015432 seconds 
