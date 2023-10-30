@@ -260,3 +260,211 @@ Received Import Request.
   path: Assets/音频/西仓街道声音/人15.mp3
   artifactKey: Guid(b4982f3554f4f614a88669971ce0505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/音频/西仓街道声音/人15.mp3 using Guid(b4982f3554f4f614a88669971ce0505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd64b50cacb8dbf10bc205df723ee82') in 0.015425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44585.554047 seconds.
+  path: Assets/音频/麻家十字声音/背景白噪音终版.mp3
+  artifactKey: Guid(cb2aebe959166cb4684efb4362194e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/音频/麻家十字声音/背景白噪音终版.mp3 using Guid(cb2aebe959166cb4684efb4362194e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5fc0af58a8900a7572b4be7cdd568b') in 0.073004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.991511 seconds.
+  path: Assets/贴图/标题界面/取消按钮.mat
+  artifactKey: Guid(a2b40b2802c0552458e3203e4fe0bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/标题界面/取消按钮.mat using Guid(a2b40b2802c0552458e3203e4fe0bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9976a24bf54cff3a8a54f923760e6a7b') in 0.037607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.884825 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框
+  artifactKey: Guid(b7b5012b91087004fb26881428bf8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框 using Guid(b7b5012b91087004fb26881428bf8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e22cd5ffba8f79b7ce41327a4bd45a') in 0.007339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.811677 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民
+  artifactKey: Guid(1e0d3326207934f46abdf2a39365fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民 using Guid(1e0d3326207934f46abdf2a39365fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d41a256ef62ff0f83758640c99fe002') in 0.006561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.920434 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/关闭按钮.png
+  artifactKey: Guid(902b20ac54be0514b944da7865f02814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/关闭按钮.png using Guid(902b20ac54be0514b944da7865f02814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be0700e904dff3d82198f3759da6aaa') in 0.019417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.264074 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/回民街居民对话ui示意图.jpg
+  artifactKey: Guid(cdabee34f8873744fb81e17b090b3d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/回民街居民对话ui示意图.jpg using Guid(cdabee34f8873744fb81e17b090b3d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581d74f9536a346ffc2e599707b8f4cb') in 0.024314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.818476 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/New Material.mat
+  artifactKey: Guid(e045aa01e22a41e4b900eb4b41558bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/New Material.mat using Guid(e045aa01e22a41e4b900eb4b41558bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b293358e6be8b6f5f40ccd91dd61ac') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.186425 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民
+  artifactKey: Guid(f3ff55f50aa87984997662a51b287e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民 using Guid(f3ff55f50aa87984997662a51b287e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98e9bcfaa7b5f6e5d169f80ab2d75ed') in 0.006768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.528557 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人7png.png
+  artifactKey: Guid(52d690bfd80a261469bafeb32ac8b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人7png.png using Guid(52d690bfd80a261469bafeb32ac8b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50afa6883f15e637c26e2fc862b58be') in 0.019686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.060701 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人8.png
+  artifactKey: Guid(9c1b82bcff1351643b3339d1245a9fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人8.png using Guid(9c1b82bcff1351643b3339d1245a9fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7582bafbb2665894a3014783fcc52e2') in 0.019343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.102585 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人17.png
+  artifactKey: Guid(ae9add154fad167409a022b455e3f06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人17.png using Guid(ae9add154fad167409a022b455e3f06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e61b928536ff901e0f9d4334533d5b') in 0.017553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.495303 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人7.png
+  artifactKey: Guid(52d690bfd80a261469bafeb32ac8b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人7.png using Guid(52d690bfd80a261469bafeb32ac8b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc825c20491745df0cde4a81569beb6') in 0.015311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.338395 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/New Material.mat
+  artifactKey: Guid(384fc591dcbd36048a2e55bcea24dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/New Material.mat using Guid(384fc591dcbd36048a2e55bcea24dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895b98e28b24b731c1934f915c1b996d') in 0.016455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.868221 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/New Material 1.mat
+  artifactKey: Guid(5f50a60e9b6ceed47b40bf210a576672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/New Material 1.mat using Guid(5f50a60e9b6ceed47b40bf210a576672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58026274c62e8a77ca55391ef119c1f1') in 0.016963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.274026 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/New Material 2.mat
+  artifactKey: Guid(11ca714b8a54fb445b46a764e5f07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/New Material 2.mat using Guid(11ca714b8a54fb445b46a764e5f07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aabc8265938c853cf33a76d442832ff') in 0.014598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.966966 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人7.mat
+  artifactKey: Guid(11ca714b8a54fb445b46a764e5f07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人7.mat using Guid(11ca714b8a54fb445b46a764e5f07210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbfc9fb8b43a6e0125db2660738f02c') in 0.022497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.249424 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人8.mat
+  artifactKey: Guid(5f50a60e9b6ceed47b40bf210a576672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人8.mat using Guid(5f50a60e9b6ceed47b40bf210a576672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1105f05508367819c25545cf05a693a') in 0.016627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.610023 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人17.mat
+  artifactKey: Guid(384fc591dcbd36048a2e55bcea24dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/麻家十字居民/人17.mat using Guid(384fc591dcbd36048a2e55bcea24dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8ed65c23f4266b6842db6b3feb130a') in 0.016052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.014694 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民
+  artifactKey: Guid(be4bd9b18d5e80440bf6c4049338ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民 using Guid(be4bd9b18d5e80440bf6c4049338ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831912a1b9ebae165607ed1210ef3a33') in 0.006903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.039387 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人11.png
+  artifactKey: Guid(32cb24aa5f932ce4790bee4f4f5377c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人11.png using Guid(32cb24aa5f932ce4790bee4f4f5377c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4548e58a6964e4d38d6a277a8ef1f94') in 0.019619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.190320 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人16.png
+  artifactKey: Guid(0dd072caf2f4a7d46b8683032e3c6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人16.png using Guid(0dd072caf2f4a7d46b8683032e3c6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74781ce350bab857c06daea9e211fa8') in 0.017222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.937394 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人11.mat
+  artifactKey: Guid(ea5de621d51737647a410a5e91d69764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人11.mat using Guid(ea5de621d51737647a410a5e91d69764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be32c15125644bcd4014e2c6afd422e0') in 0.014318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.317991 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人16.mat
+  artifactKey: Guid(8c89b3039b216be438c7a2c83d2eaea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/西仓街道居民/人16.mat using Guid(8c89b3039b216be438c7a2c83d2eaea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d282f243aadeb3ea2a6dd5da2619eb') in 0.011374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.009155 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/返回
+  artifactKey: Guid(a219b6e5c009e474382bcd6dd5041359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/返回 using Guid(a219b6e5c009e474382bcd6dd5041359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49227e913be550ff4929ed8d59024051') in 0.007074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.563943 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/返回/返回按钮.png
+  artifactKey: Guid(dff5d8250f0087e40956f4629cf6a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/返回/返回按钮.png using Guid(dff5d8250f0087e40956f4629cf6a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fc289dcbf17da596a70f201e8bcece') in 0.015156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.174124 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/返回/返回按钮.mat
+  artifactKey: Guid(e91a41619e116d647962fd993e996bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/返回/返回按钮.mat using Guid(e91a41619e116d647962fd993e996bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55ef56653633a6c75193fb3ad9fad23') in 0.013842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.834486 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴
+  artifactKey: Guid(43852304fa1e813429eb0ac8fe9b0f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴 using Guid(43852304fa1e813429eb0ac8fe9b0f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366178d6be7483744ee0c57a41ca06c8') in 0.006704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.303893 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/下面的翻页按钮（不选）.png
+  artifactKey: Guid(dbcd5b6773ae8104db9a0726c79930ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/下面的翻页按钮（不选）.png using Guid(dbcd5b6773ae8104db9a0726c79930ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65e08e241b9fb18a71d21542d94325b') in 0.012886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104799 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/回民街居民按钮（不选）.png
+  artifactKey: Guid(d751a36f62fb1134bbd594cdfeae60fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/回民街居民按钮（不选）.png using Guid(d751a36f62fb1134bbd594cdfeae60fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d845a2f855108434d8a03c9ac0475e7') in 0.015733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077077 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/图鉴本体.png
+  artifactKey: Guid(ca83f1df65f7fd247a0d60a05f6858a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/图鉴本体.png using Guid(ca83f1df65f7fd247a0d60a05f6858a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c258bff340e80950a3be91da8b40cf4') in 0.018590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/没有被点过的人.png
+  artifactKey: Guid(19b645c615e761d448a9686abbeafd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/没有被点过的人.png using Guid(19b645c615e761d448a9686abbeafd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a448826e04b12acb0bc3797c901eb22') in 0.016950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/本地人按钮（不选）.png
+  artifactKey: Guid(506d606b52654da43a8aabe059ebf203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/本地人按钮（不选）.png using Guid(506d606b52654da43a8aabe059ebf203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc08dccf8c3ab42b1556b196d5f54733') in 0.017859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/外地人按钮（选中）.png
+  artifactKey: Guid(7b663903872303043b0dad703116356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/外地人按钮（选中）.png using Guid(7b663903872303043b0dad703116356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ed992e2519d6b0276c9e59bc50f624') in 0.016552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.563024 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/New Material.mat
+  artifactKey: Guid(1157f0105263a4e42a2141c86d5cd9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/New Material.mat using Guid(1157f0105263a4e42a2141c86d5cd9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502ac95cc3a0b1b2df92351312d89e75') in 0.017276 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

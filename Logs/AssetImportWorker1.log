@@ -242,3 +242,37 @@ Received Import Request.
   path: Assets/音频/西仓街道声音/人16.mp3
   artifactKey: Guid(9b0c705e1a3b2f140a315511c575d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/音频/西仓街道声音/人16.mp3 using Guid(9b0c705e1a3b2f140a315511c575d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e1d711d53554bf918eee47cceb5d4c') in 0.015432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45218.929115 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/下面的翻页按钮（选中）.png
+  artifactKey: Guid(be44834718a7ec447ab1064ca5033cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/下面的翻页按钮（选中）.png using Guid(be44834718a7ec447ab1064ca5033cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd81dc0d1178bb369a0d8cbf6d49360') in 0.131258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048631 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/外地人按钮（不选）.png
+  artifactKey: Guid(f461f04983a904342a54dcf1d0c7b3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/外地人按钮（不选）.png using Guid(f461f04983a904342a54dcf1d0c7b3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce43838a92dc5273e1a37a034b5a7d8') in 0.023832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/本地人按钮（选中）.png
+  artifactKey: Guid(dfc29cf1dc4759f4c909a8b563e6987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/本地人按钮（选中）.png using Guid(dfc29cf1dc4759f4c909a8b563e6987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b14d4b43919c85a9a817cb7739cfa57') in 0.015984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/图鉴打开示意图.jpg
+  artifactKey: Guid(ad5e237ed0ca7da4e8ecd0007cd70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/图鉴打开示意图.jpg using Guid(ad5e237ed0ca7da4e8ecd0007cd70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6f90582f5d0d44766a0db0ac096c4a') in 0.021690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/贴图/两个街道的主界面/界面中的ui/图鉴/回民街·居民按钮（选中）.png
+  artifactKey: Guid(362355e112a513345bef4834c04bbc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/贴图/两个街道的主界面/界面中的ui/图鉴/回民街·居民按钮（选中）.png using Guid(362355e112a513345bef4834c04bbc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17790806a21855749b95257240c3094') in 0.016357 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
