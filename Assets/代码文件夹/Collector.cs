@@ -8,18 +8,31 @@ public class Collector : MonoBehaviour
     public SonController PersonModelControl;
     public int Num;
     private bool[] B1 = {true,true,false,true,false,false,true,true,true,false,false,true,false,false,false };
-
+    private bool[] B2 = {true,false,false,false,false,true,false,false,true,false,true,false,true,false,true,false,false,true,true,true,false,true,true,true,false,false,};
     public AudioSource[] RightAndWrong;
-    private AudioSource ToPlay;
+    public AudioSource ToPlay;
 
     public void GetNum(int N)
     {
         Num = N;
     }
 
-    public void JudgeRight(bool input)
+    public void JudgeRight1(bool input)
     {
         if (input == B1[Num])
+        {
+            PersonModelControl.ChangeTheMesh(Num);
+            ToPlay = RightAndWrong[0];
+        }
+        else
+        {
+            ToPlay = RightAndWrong[1];
+        }
+        ToPlay.Play();
+    }
+    public void JudgeRight2(bool input)
+    {
+        if (input == B2[Num])
         {
             PersonModelControl.ChangeTheMesh(Num);
             ToPlay = RightAndWrong[0];
