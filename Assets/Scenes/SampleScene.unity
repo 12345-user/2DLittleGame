@@ -2799,7 +2799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 85621441}
   m_Layer: 0
-  m_Name: "\u573A\u666F\u4E09"
+  m_Name: "\u9EBB\u5BB6\u4ECB\u7ECD"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16109,17 +16109,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u9EBB\u82B1\u5341\u5B57"
+  m_text: "\u9EBB\u5BB6\u5341\u5B57"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7dde00baf98d8a04a8efd083d659479c, type: 2}
-  m_sharedMaterial: {fileID: -7428100555020505104, guid: 7dde00baf98d8a04a8efd083d659479c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: df7159e1d281d824fa32db0e5d01a0b7, type: 2}
+  m_sharedMaterial: {fileID: -7222952066265809863, guid: df7159e1d281d824fa32db0e5d01a0b7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284612095
-  m_fontColor: {r: 1, g: 0.9905516, b: 0.38113207, a: 1}
+    rgba: 4294934369
+  m_fontColor: {r: 0.3803922, g: 0.49672747, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17938,7 +17938,7 @@ Transform:
   - {fileID: 1983208865}
   - {fileID: 300112303}
   m_Father: {fileID: 552679653}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &548943161
 GameObject:
@@ -18520,8 +18520,8 @@ Transform:
   - {fileID: 85621441}
   - {fileID: 1140762974}
   - {fileID: 2055140206}
-  - {fileID: 1163306581}
   - {fileID: 544363097}
+  - {fileID: 1163306581}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32444,7 +32444,7 @@ GameObject:
   - component: {fileID: 956129249}
   - component: {fileID: 956129250}
   m_Layer: 0
-  m_Name: "\u5224\u65AD\u662F\u5426\u6536\u96C6\u9762\u677F"
+  m_Name: "\u6536\u96C6\u9762\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35141,7 +35141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043587731}
   m_Layer: 0
-  m_Name: "\u573A\u666F\u4E8C"
+  m_Name: "\u897F\u4ED3\u4ECB\u7ECD"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38259,7 +38259,7 @@ Transform:
   - {fileID: 833512942}
   - {fileID: 230118235}
   m_Father: {fileID: 552679653}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1163306582
 MonoBehaviour:
@@ -58708,7 +58708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851234936}
   m_Layer: 0
-  m_Name: "\u573A\u666F\u4E00"
+  m_Name: "\u4E3B\u754C\u9762"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64227,7 +64227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040125090}
   m_Layer: 0
-  m_Name: "\u573A\u666F\u79FB\u52A8\u6309\u94AE"
+  m_Name: "\u573A\u666F\u63A7\u5236"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
