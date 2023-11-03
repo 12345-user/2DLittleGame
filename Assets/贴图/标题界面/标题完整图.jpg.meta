@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/贴图/两个街道的主界面/界面中的ui/主界面ui示意图1.jpg.meta
+guid: f2818054c28a27842b4c43970b7730ec
+========
 guid: 858769c0c71bd074b823fc6fdb8243bb
+>>>>>>>> origin/Develop:Assets/贴图/标题界面/标题完整图.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
