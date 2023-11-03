@@ -7,19 +7,17 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/贴图/两个街道的主界面/西仓主界面贴图/人物被裁掉一半（放进图鉴）/Materials/人15.mat
-  m_Name: "\u4EBA15"
-========
-  m_Name: "\u5173\u95ED\u6309\u94AE"
->>>>>>>> origin/Develop:Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/Materials/关闭按钮.mat
+  m_Name: "\u672C\u5730\u4EBA\u6309\u94AE\uFF08\u9009\u4E2D\uFF09"
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHATEST_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -45,11 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-<<<<<<<< HEAD:Assets/贴图/两个街道的主界面/西仓主界面贴图/人物被裁掉一半（放进图鉴）/Materials/人15.mat
-        m_Texture: {fileID: 2800000, guid: 2076775817d348044a6ccd5c3173f12a, type: 3}
-========
-        m_Texture: {fileID: 2800000, guid: 902b20ac54be0514b944da7865f02814, type: 3}
->>>>>>>> origin/Develop:Assets/贴图/两个街道的主界面/界面中的ui/对话框/回民街居民/Materials/关闭按钮.mat
+        m_Texture: {fileID: 2800000, guid: dfc29cf1dc4759f4c909a8b563e6987d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -74,7 +68,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
