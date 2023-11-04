@@ -41,6 +41,8 @@ public class Collector : MonoBehaviour
         {
             ToPlay = RightAndWrong[1];
         }
+        Debug.Log("Toplay获取：" + ToPlay.name);
         ToPlay.Play();
+        Debug.Log("人物序号：" + Num + " 读取值： " + B2[Num] + " 实际判断：" + input);
     }
 }
