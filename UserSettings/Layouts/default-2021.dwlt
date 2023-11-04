@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43.2
+    x: 105.333336
+    y: 78.66667
     width: 1536
-    height: 780.8
+    height: 780.6667
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 6}
@@ -48,6 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
+  controlID: 22
   controlID: 84
 --- !u!114 &3
 MonoBehaviour:
@@ -194,7 +195,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 760.8
+    y: 760.6667
     width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -335,18 +336,18 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000a06c0000a26c0000a46c0000a66c0000a86c0000aa6c0000c66c0000ca6c0000fae60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: "\u9EBB\u5BB6\u573A\u666F\u63A7\u5236"
+      m_OriginalName: "\u9EBB\u5BB6\u573A\u666F\u63A7\u5236"
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 27898
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
@@ -452,7 +453,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 162
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
