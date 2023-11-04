@@ -18,5 +18,13 @@ public class MeshControl : MonoBehaviour
         meshRender = this.GetComponent<MeshRenderer>();
         meshRender.material = Init_mesh;
     }
+    public bool CurrentMeshFini()
+    {
+        return meshRender.material == Fini_mesh;
+    }
+    public bool CurrentMeshInit()
+    {
+        return meshRender.material == Init_mesh;
+    }
 
 }

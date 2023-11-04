@@ -7,10 +7,13 @@ public class Collector : MonoBehaviour
     // Start is called before the first frame update
     public SonController PersonModelControl;
     public int Num;
+    public GameObject[] AllPeopleInScene;
     private bool[] B1 = {true,true,false,true,false,false,true,true,true,false,false,true,false,false,false };
     private bool[] B2 = {true,false,false,false,false,true,false,false,true,false,true,false,true,false,true,false,false,true,true,true,false,true,true,true,false,false,};
     public AudioSource[] RightAndWrong;
     public AudioSource ToPlay;
+    public GameObject finishGameObject;
+    private bool showFinish = true;
 
     public void GetNum(int N)
     {
@@ -41,8 +44,29 @@ public class Collector : MonoBehaviour
         {
             ToPlay = RightAndWrong[1];
         }
+        AllPeopleInScene[Num].GetComponent<MeshControl>().ChangeToInit();
+        AllPeopleInScene[Num].GetComponent<AudioSource>().Stop();
         Debug.Log("Toplay获取：" + ToPlay.name);
         ToPlay.Play();
         Debug.Log("人物序号：" + Num + " 读取值： " + B2[Num] + " 实际判断：" + input);
     }
+
+    public void JudgeAll()
+    {
+        bool allchange = true;
+        for (int i = 0; i < AllPeopleInScene.Length; i++)
+        {
+            if (AllPeopleInScene[Num].GetComponent<MeshControl>().CurrentMeshInit())
+            {
+                allchange = false;
+            }
+        }
+        if(allchange == true && showFinish == true)
+        {
+            finishGameObject.gameObject.SetActive(true);
+            showFinish = false;
+        }
+        
+    }
+    
 }

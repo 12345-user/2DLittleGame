@@ -17,6 +17,17 @@ public class SonController : MonoBehaviour
         }
     }
 
+    public void UnlockAllMesh()
+    {
+        foreach (Transform child in transform)
+        {
+            foreach (Transform GrandSon in child)
+            {
+                GrandSon.gameObject.GetComponent<MeshControl>().ChangeToFini();
+            }
+        }
+    }
+
     public void ShowTheSons(int i)
     {
         foreach (Transform child in transform)
