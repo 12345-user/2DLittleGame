@@ -6061,7 +6061,6 @@ MonoBehaviour:
   - {fileID: 1508458157}
   - {fileID: 1115697414}
   ToPlay: {fileID: 0}
-  finishGameObject: {fileID: 841011732}
 --- !u!1 &231138598
 GameObject:
   m_ObjectHideFlags: 0
@@ -10300,6 +10299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PeopleInIllustrations: []
+  finishGameObject: {fileID: 0}
 --- !u!1 &318792220
 GameObject:
   m_ObjectHideFlags: 0
@@ -18616,7 +18616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &544363097
 Transform:
   m_ObjectHideFlags: 0
@@ -29390,6 +29390,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1268652569}
+        m_TargetAssemblyTypeName: SonController, Assembly-CSharp
+        m_MethodName: JudgeAll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &836327704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33648,7 +33660,6 @@ MonoBehaviour:
   - {fileID: 1066984749}
   - {fileID: 1740516280}
   ToPlay: {fileID: 0}
-  finishGameObject: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -38045,6 +38056,7 @@ MonoBehaviour:
   - {fileID: 2017373737}
   - {fileID: 1230550232}
   - {fileID: 1689756901}
+  finishGameObject: {fileID: 0}
 --- !u!1 &1115697413
 GameObject:
   m_ObjectHideFlags: 0
@@ -39725,7 +39737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1163306581
 Transform:
   m_ObjectHideFlags: 0
@@ -43239,6 +43251,7 @@ MonoBehaviour:
   - {fileID: 1146286380}
   - {fileID: 515709293}
   - {fileID: 1166195071}
+  finishGameObject: {fileID: 841011732}
 --- !u!4 &1268652570
 Transform:
   m_ObjectHideFlags: 0
@@ -52148,8 +52161,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 230118236}
-        m_TargetAssemblyTypeName: Collector, Assembly-CSharp
+      - m_Target: {fileID: 1268652569}
+        m_TargetAssemblyTypeName: SonController, Assembly-CSharp
         m_MethodName: JudgeAll
         m_Mode: 1
         m_Arguments:
@@ -56345,6 +56358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PeopleInIllustrations: []
+  finishGameObject: {fileID: 0}
 --- !u!4 &1690147921
 Transform:
   m_ObjectHideFlags: 0

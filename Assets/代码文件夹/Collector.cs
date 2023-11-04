@@ -12,8 +12,7 @@ public class Collector : MonoBehaviour
     private bool[] B2 = {true,false,false,false,false,true,false,false,true,false,true,false,true,false,true,false,false,true,true,true,false,true,true,true,false,false,};
     public AudioSource[] RightAndWrong;
     public AudioSource ToPlay;
-    public GameObject finishGameObject;
-    private bool showFinish = true;
+
 
     public void GetNum(int N)
     {
@@ -51,22 +50,6 @@ public class Collector : MonoBehaviour
         Debug.Log("人物序号：" + Num + " 读取值： " + B2[Num] + " 实际判断：" + input);
     }
 
-    public void JudgeAll()
-    {
-        bool allchange = true;
-        for (int i = 0; i < AllPeopleInScene.Length; i++)
-        {
-            if (AllPeopleInScene[Num].GetComponent<MeshControl>().CurrentMeshInit())
-            {
-                allchange = false;
-            }
-        }
-        if(allchange == true && showFinish == true)
-        {
-            finishGameObject.gameObject.SetActive(true);
-            showFinish = false;
-        }
-        
-    }
+
     
 }
