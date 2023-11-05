@@ -8,8 +8,10 @@ public class ResetScene : MonoBehaviour
     public GameObject illustrated;
     public AudioSource[] allAudioSource;
     public GameObject[] allDialogBox;
+    public MeshControl[] AllScenePeopleMesh;
     public GameObject OpenScene;
     public GameObject CloseScene;
+    
 
 
     public void resetsence()
@@ -52,6 +54,14 @@ public class ResetScene : MonoBehaviour
             CloseScene.SetActive(false);
         }
 
+        //³¡¾°ÄÚmeshÖØÖÃ
+        if (AllScenePeopleMesh.Length > 0)
+        {
+            foreach (var PeopleMesh in AllScenePeopleMesh)
+            {
+                PeopleMesh.ChangeToInit();
+            }
+        }
     }
 
     public void StopOtherAudio(int Keep)
@@ -68,4 +78,19 @@ public class ResetScene : MonoBehaviour
             }
         }
     }
+    public void StopOtherMesh(int Keep)
+    {
+        for (int i = 0; i < AllScenePeopleMesh.Length; i++)
+        {
+            if (i != Keep)
+            {
+                AllScenePeopleMesh[i].ChangeToInit();
+            }
+            else
+            {
+                AllScenePeopleMesh[i].ChangeToFini();
+            }
+        }
+    }
+
 }

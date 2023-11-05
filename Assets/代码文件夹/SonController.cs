@@ -55,6 +55,7 @@ public class SonController : MonoBehaviour
             if (PeopleInIllustrations[i].CurrentMeshInit())
             {
                 allchange = false;
+                Debug.Log("JudgeAll()中检测到还没有检索的图鉴:" + i);
             }
         }
         if (allchange == true && showFinish == true)
@@ -63,5 +64,12 @@ public class SonController : MonoBehaviour
             showFinish = false;
         }
 
+    }
+    public void DisAppearTheSons()
+    {
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(false);
+        }
     }
 }
