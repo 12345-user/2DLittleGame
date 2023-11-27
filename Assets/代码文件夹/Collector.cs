@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +9,7 @@ public class Collector : MonoBehaviour
     public int Num;
     public GameObject[] AllPeopleInScene;
     private bool[] B1 = {true,true,false,true,false,false,true,true,true,true,true,false,true,false,false,true };
-    private bool[] B2 = {true,false,false,false,false,true,true,true,true,false,true,false,true,false,true,false,true,true,true,true,false,true,true,true,false};
+    private bool[] B2 = {true,false,false,false,true,true,true,true,true,false,true,false,true,false,true,false,true,true,true,true,false,true,true,false,false};
     public AudioSource[] RightAndWrong;
     public AudioSource ToPlay;
 
@@ -32,9 +32,9 @@ public class Collector : MonoBehaviour
         }
         AllPeopleInScene[Num].GetComponent<MeshControl>().ChangeToInit();
         AllPeopleInScene[Num].GetComponent<AudioSource>().Stop();
-        Debug.Log("Toplay»ñÈ¡£º" + ToPlay.name);
+        Debug.Log("Toplayï¿½ï¿½È¡ï¿½ï¿½" + ToPlay.name);
         ToPlay.Play();
-        Debug.Log("ÈËÎïÐòºÅ£º" + Num + " ¶ÁÈ¡Öµ£º " + B1[Num] + " Êµ¼ÊÅÐ¶Ï£º" + input);
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½" + Num + " ï¿½ï¿½È¡Öµï¿½ï¿½ " + B1[Num] + " Êµï¿½ï¿½ï¿½Ð¶Ï£ï¿½" + input);
     }
     public void JudgeRight2(bool input)
     {
@@ -49,9 +49,9 @@ public class Collector : MonoBehaviour
         }
         AllPeopleInScene[Num].GetComponent<MeshControl>().ChangeToInit();
         AllPeopleInScene[Num].GetComponent<AudioSource>().Stop();
-        Debug.Log("Toplay»ñÈ¡£º" + ToPlay.name);
+        Debug.Log("Toplayï¿½ï¿½È¡ï¿½ï¿½" + ToPlay.name);
         ToPlay.Play();
-        Debug.Log("ÈËÎïÐòºÅ£º" + Num + " ¶ÁÈ¡Öµ£º " + B2[Num] + " Êµ¼ÊÅÐ¶Ï£º" + input);
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½" + Num + " ï¿½ï¿½È¡Öµï¿½ï¿½ " + B2[Num] + " Êµï¿½ï¿½ï¿½Ð¶Ï£ï¿½" + input);
     }
 
 
