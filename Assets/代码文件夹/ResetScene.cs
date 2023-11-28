@@ -16,7 +16,7 @@ public class ResetScene : MonoBehaviour
 
     public void resetsence()
     {
-        //“Ù∆µπÿ±’£∫
+        //ÔøΩÔøΩ∆µÔøΩÿ±’£ÔøΩ
         if (allAudioSource.Length > 0)
         {
             foreach (var audioSource in allAudioSource)
@@ -25,7 +25,7 @@ public class ResetScene : MonoBehaviour
             }
         }
 
-        //Õºº¯∫Õ∂‘ª∞øÚπÿ±’£∫
+        //ÕºÔøΩÔøΩÔøΩÕ∂‘ªÔøΩÔøΩÔøΩÿ±’£ÔøΩ
         if(illustrated != null)
         {
             illustrated.SetActive(false);
@@ -39,12 +39,12 @@ public class ResetScene : MonoBehaviour
             }
         }
 
-        //…„œÒª˙∏¥Œª£∫
+        //ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩŒªÔøΩÔøΩ
         if (cameraControl != null)
         { 
             cameraControl.RestoreUI_x(); 
         }
-        //∂‘”¶≥°æ∞ø™πÿ
+        //ÔøΩÔøΩ”¶ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
         if(OpenScene != null)
         {
             OpenScene.SetActive(true);
@@ -54,7 +54,7 @@ public class ResetScene : MonoBehaviour
             CloseScene.SetActive(false);
         }
 
-        //≥°æ∞ƒ⁄mesh÷ÿ÷√
+        //ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩmeshÔøΩÔøΩÔøΩÔøΩ
         if (AllScenePeopleMesh.Length > 0)
         {
             foreach (var PeopleMesh in AllScenePeopleMesh)
@@ -93,4 +93,17 @@ public class ResetScene : MonoBehaviour
         }
     }
 
+    public void CloseDialogBoxAfterFiveSeconds(int i)
+    
+    {
+        StartCoroutine(DelayMethod(5,i));
+    }
+
+    IEnumerator DelayMethod(float delayTime,int i)
+    {
+    //ÂèóÂà∞TimeScaleÂΩ±Âìç
+        yield return new WaitForSeconds(delayTime);
+        allDialogBox[i].SetActive(false);
+
+    }
 }
