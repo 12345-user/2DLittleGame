@@ -1225,6 +1225,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 11
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &24759795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3591,6 +3603,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &109874632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5634,6 +5658,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1140762975}
         m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
         m_MethodName: StopOtherMesh
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8248,6 +8284,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1140762975}
         m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
         m_MethodName: StopOtherMesh
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14185,6 +14233,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &406569407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16406,6 +16466,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1095234863}
         m_TargetAssemblyTypeName: Collector, Assembly-CSharp
         m_MethodName: GetNum
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18986,6 +19058,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1140762975}
         m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
         m_MethodName: StopOtherMesh
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31540,6 +31624,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 14
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &841278033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33851,6 +33947,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 12
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &897925549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34565,6 +34673,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1095234863}
         m_TargetAssemblyTypeName: Collector, Assembly-CSharp
         m_MethodName: GetNum
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40687,7 +40807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1140762974
 Transform:
   m_ObjectHideFlags: 0
@@ -41551,7 +41671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1163306581
 Transform:
   m_ObjectHideFlags: 0
@@ -47150,6 +47270,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -55558,6 +55690,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1627793916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62145,6 +62289,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 15
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1816877422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66333,6 +66489,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1946136612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70115,7 +70283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CameraTransform: {fileID: 963194228}
   CameraMoveSpeed: 150
-  CameraMoveDistanceLimit: 350
+  CameraMoveDistanceLimit: 365
   UIList:
   - {fileID: 1224916052}
   - {fileID: 1423977099}
@@ -71157,7 +71325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057131899}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -24.3, y: 43.6, z: -2}
+  m_LocalPosition: {x: -13.4, y: 52, z: -2}
   m_LocalScale: {x: 40, y: 40, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -73137,6 +73305,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2111691277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73611,6 +73791,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1095234863}
         m_TargetAssemblyTypeName: Collector, Assembly-CSharp
         m_MethodName: GetNum
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 13
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1140762975}
+        m_TargetAssemblyTypeName: ResetScene, Assembly-CSharp
+        m_MethodName: CloseDialogBoxAfterFiveSeconds
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
