@@ -5,6 +5,7 @@ using UnityEngine;
 public class SonController : MonoBehaviour
 {
     public MeshControl[] PeopleInIllustrations;
+    public MeshControl[] OutLander;
     public GameObject finishGameObject;
     private bool showFinish = true;
     // Start is called before the first frame update
@@ -50,12 +51,12 @@ public class SonController : MonoBehaviour
     public void JudgeAll()
     {
         bool allchange = true;
-        for (int i = 0; i < PeopleInIllustrations.Length; i++)
+        for (int i = 0; i < OutLander.Length; i++)
         {
-            if (PeopleInIllustrations[i].CurrentMeshInit())
+            if (OutLander[i].CurrentMeshInit())
             {
                 allchange = false;
-                Debug.Log("JudgeAll()ÖÐ¼ì²âµ½»¹Ã»ÓÐ¼ìË÷µÄÍ¼¼ø:" + i);
+                //Debug.Log("JudgeAll()ï¿½Ð¼ï¿½âµ½ï¿½ï¿½Ã»ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½:" + i);
             }
         }
         if (allchange == true && showFinish == true)

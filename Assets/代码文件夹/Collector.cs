@@ -49,9 +49,9 @@ public class Collector : MonoBehaviour
         }
         AllPeopleInScene[Num].GetComponent<MeshControl>().ChangeToInit();
         AllPeopleInScene[Num].GetComponent<AudioSource>().Stop();
-        Debug.Log("Toplay��ȡ��" + ToPlay.name);
+        Debug.Log("Toplay" + ToPlay.name);
         ToPlay.Play();
-        Debug.Log("������ţ�" + Num + " ��ȡֵ�� " + B2[Num] + " ʵ���жϣ�" + input);
+        Debug.Log("对应号码" + Num + " 预期判定 " + B2[Num] + "实际判定" + input);
     }
 
 
